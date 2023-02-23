@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <font color="white">
+        <font size="40">
+     Welcome to my chat bot <br>
+     </font>
+     </font>
+     <font color="white">
+        <font size="4">
+            A chatbot is a computer program that uses artificial intelligence (AI) and natural language processing (NLP) to communicate with users through text-based conversations. Chatbots can be integrated into messaging apps, websites, and other platforms, and they can be used for a variety of purposes, including customer service, sales, and support.
+             Chatbots can be programmed to understand and respond to user queries in a conversational manner, and they can provide information, answer questions, and even perform actions or transactions on behalf of users. They can be trained to recognize and interpret specific keywords, phrases, and patterns in user input, and respond with relevant information or actions.<br>
+             There are two main types of chatbots: rule-based and AI-based.
+              Rule-based chatbots are programmed to follow a predefined set of rules and responses, while AI-based chatbots use machine learning algorithms to improve their responses over time based on user interactions and feedback.
+             Overall, chatbots are becoming increasingly popular in various industries and can offer businesses a way to automate customer interactions, reduce response times, and improve overall customer experience. <br>                                                                                                                                                                     
+
+           
+
+        </font>
+     </font>
+     <font color="green">
+        <font size="5">
+            This project is made by SprayGod7
+            you can check my github profile
+         <a href="https://github.com/SPRAYGOD7">Github</a>   
+        </font>
+     </font>
+
+
+    
+        
+       
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+
+    <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Health Assist Chat Bot!
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                
+                <div class="outer-container">
+                    <div class="chat-container">
+                        
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="static/scripts/responses.js"></script>
+<script src="static/scripts/chat.js"></script>
+
+</html>
